@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body>
+<div class="container">
+    <div>
+    <?php
+$cateto1 = 3;
+$cateto2= 4;
+$hipo = null;
+
+$cuadrado= pow($cateto1,2) + pow($cateto2,2);
+
+$hipo= sqrt($cuadrado);
+
+
+echo "La hipotenusa es: ".$hipo;
+;
+
+?>  
+    
+    </div>
+</div>
+
+</body>
+</html>
+
+
+
+
